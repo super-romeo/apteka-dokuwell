@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Program dla apteki ogólnodostępnej: sprzedaż, zamówienia u hurtowni, weryfikacja FMD i raporty do ZSMOPL w jednym miejscu. Stała cena miesięczna.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Apteka Plus</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Apteka Plus</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Program dla apteki — sprzedaż, zamówienia, FMD i raporty ZSMOPL w jednym miejscu</h1>
-    <p class="sub">Dla aptek ogólnodostępnych: sprzedaż przy pierwszym stole, zamówienia u hurtowni z podpowiedzią ilości, weryfikacja opakowań FMD i raporty do ZSMOPL — w przeglądarce, bez serwera na zapleczu.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla aptek ogólnodostępnych</p>
+      <h1 class="rise" style="--i:1" data-len="long">Program dla apteki&nbsp;<span class="soft">— sprzedaż, zamówienia, FMD i raporty ZSMOPL w jednym miejscu</span></h1>
+      <p class="rise" style="--i:2">Dla aptek ogólnodostępnych: sprzedaż przy pierwszym stole, zamówienia u hurtowni z podpowiedzią ilości, weryfikacja opakowań FMD i raporty do ZSMOPL — w przeglądarce, bez serwera na zapleczu.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Sprzedaż</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="294" font-size="32" fill="#0a1524">FMD</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><rect x="200" y="360" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="440" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="450" width="220" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="530" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="540" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">ZSMOPL</text><rect x="740" y="470" width="54" height="150" rx="8" fill="#ffffff" /><rect x="820" y="390" width="54" height="230" rx="8" fill="#12397a" /><rect x="900" y="430" width="54" height="190" rx="8" fill="#ffffff" /><rect x="980" y="500" width="54" height="120" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Aptek ogólnodostępnych</dd></div>
+      <div><dt>Sprzedaż</dt><dd>Przy pierwszym stole</dd></div>
+      <div><dt>Jak</dt><dd>W przeglądarce</dd></div>
+      <div><dt>Dostęp</dt><dd>Wczesny dostęp</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Sprzedaż</b><span>Pierwszy stół: recepty, sprzedaż odręczna, rabaty i paragon.</span><br><a class="btn" href="price.html" data-ev="feature_sprzedaz">Tego potrzebuję</a></div>
-      <div class="card"><b>Zamówienia u hurtowni</b><span>Podpowiedź ilości z historii sprzedaży i porównanie ofert kilku hurtowni.</span><br><a class="btn" href="price.html" data-ev="feature_zamowienia">Tego potrzebuję</a></div>
-      <div class="card"><b>Weryfikacja FMD</b><span>Sprawdzanie i wycofywanie niepowtarzalnych identyfikatorów opakowań przy przyjęciu i sprzedaży.</span><br><a class="btn" href="price.html" data-ev="feature_fmd">Tego potrzebuję</a></div>
-      <div class="card"><b>Raporty ZSMOPL</b><span>Raporty obrotu i stanów przygotowane i wysyłane w terminie.</span><br><a class="btn" href="price.html" data-ev="feature_zsmopl">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Sprzedaż</text><rect x="120" y="200" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,222 140,234 156,210" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="210" width="380" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="280" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,302 140,314 156,290" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="290" width="280" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="360" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="370" width="330" height="24" rx="12" fill="#dde2ea" /><text x="120" y="470" font-size="30" fill="#566174">Pierwszy stół</text></svg></div>
+        <h3>Sprzedaż</h3><p>Pierwszy stół: recepty, sprzedaż odręczna, rabaty i paragon.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sprzedaz">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Zamówienia</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" /><rect x="180" y="320" width="70" height="150" rx="8" fill="#dfe8f7" /><rect x="300" y="230" width="70" height="240" rx="8" fill="#12397a" /><rect x="420" y="280" width="70" height="190" rx="8" fill="#b9c3d2" /><rect x="540" y="360" width="70" height="110" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Zamówienia u hurtowni</h3><p>Podpowiedź ilości z historii sprzedaży i porównanie ofert kilku hurtowni.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zamowienia">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Weryfikacja FMD</text><rect x="120" y="200" width="420" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="250" width="340" height="22" rx="8" fill="#b9c3d2" /><rect x="120" y="300" width="390" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="350" width="250" height="22" rx="8" fill="#dde2ea" /><circle cx="560" cy="430" r="64" fill="#dfe8f7" /><polyline points="524,430 548,456 600,396" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Weryfikacja FMD</h3><p>Sprawdzanie i wycofywanie niepowtarzalnych identyfikatorów opakowań przy przyjęciu i sprzedaży.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_fmd">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="270" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="180" font-size="30" font-weight="600" fill="#0a1524">Raporty</text><rect x="84" y="220" width="200" height="22" rx="8" fill="#dde2ea" /><rect x="84" y="270" width="150" height="22" rx="8" fill="#b9c3d2" /><rect x="84" y="320" width="180" height="22" rx="8" fill="#dde2ea" /><path d="M350 300 L430 300" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="430,286 462,300 430,314" fill="#12397a" /><rect x="480" y="110" width="270" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="504" y="180" font-size="30" font-weight="600" fill="#0a1524">ZSMOPL</text><rect x="504" y="230" width="190" height="22" rx="8" fill="#dfe8f7" /><rect x="504" y="280" width="140" height="22" rx="8" fill="#dde2ea" /><rect x="504" y="360" width="160" height="48" rx="16" fill="#12397a" /></svg></div>
+        <h3>Raporty ZSMOPL</h3><p>Raporty obrotu i stanów przygotowane i wysyłane w terminie.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zsmopl">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Apteka w mieście powiatowym, 3 stoły. Poniedziałek: zamówienie u dwóch hurtowni podpowiedziane z historii sprzedaży, 214 opakowań przyjętych z weryfikacją FMD, jedno opakowanie z błędem identyfikatora odłożone do wyjaśnienia. Raport do ZSMOPL wysłany o czasie.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Apteka w mieście powiatowym, 3 stoły. Poniedziałek: zamówienie u dwóch hurtowni podpowiedziane z historii sprzedaży, 214 opakowań przyjętych z weryfikacją FMD, jedno opakowanie z błędem identyfikatora odłożone do wyjaśnienia. Raport do ZSMOPL wysłany o czasie.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#12397a" /><circle cx="960" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">3 stoły</text><text x="600" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">weryfikacją FMD</text><text x="960" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">o czasie</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">Raport do ZSMOPL</text><rect x="170" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="254" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="338" y="460" width="64" height="64" rx="12" fill="#12397a" /><rect x="422" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="506" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="590" y="460" width="64" height="64" rx="12" fill="#12397a" /><rect x="674" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>W Polsce działa wiele aptek ogólnodostępnych. Każda apteka codziennie sprzedaje leki na receptę i bez recepty, zamawia towar w hurtowniach, weryfikuje opakowania w systemie FMD i przekazuje raporty do Zintegrowanego Systemu Monitorowania Obrotu Produktami Leczniczymi (ZSMOPL). Zwykle zajmuje się tym program apteczny instalowany na serwerze w aptece.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>W Polsce działa wiele aptek ogólnodostępnych. Każda apteka codziennie sprzedaje leki na receptę i bez recepty, zamawia towar w hurtowniach, weryfikuje opakowania w systemie FMD i przekazuje raporty do Zintegrowanego Systemu Monitorowania Obrotu Produktami Leczniczymi (ZSMOPL). Zwykle zajmuje się tym program apteczny instalowany na serwerze w aptece.</p>
     <p>Apteka Plus robi tę samą pracę w przeglądarce. Nie trzeba utrzymywać serwera na zapleczu, kopii zapasowych ani aktualizacji wykonywanych wieczorami — program działa na każdym komputerze przy stole i w biurze kierownika, a dane są bezpieczne w chmurze.</p>
     <p>Przy pierwszym stole farmaceuta realizuje recepty, prowadzi sprzedaż odręczną, nalicza rabaty i drukuje paragon. Przy sprzedaży opakowania z niepowtarzalnym identyfikatorem program sprawdza je w systemie FMD i wycofuje z obrotu; jeśli weryfikacja się nie powiedzie, opakowanie jest odkładane z jasnym komunikatem, co zrobić dalej.</p>
     <p>Zamówienia u hurtowni program podpowiada na podstawie historii sprzedaży i stanów: ile czego zamówić, żeby nie zabrakło leku i żeby nie zamrażać pieniędzy w towarze. Oferty kilku hurtowni można porównać w jednym widoku i złożyć zamówienie u tej, która ma lepszą cenę lub termin. Przyjęcie dostawy idzie przez skaner z weryfikacją FMD.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Na koniec dnia program zamyka kasę, przygotowuje dane do raportów i pokazuje, które leki sprzedawały się najlepiej, a które leżą na półce od miesięcy. Dzięki temu łatwiej planować zamówienia i nie trzymać w aptece towaru, który się nie obraca. Kierownik może sprawdzić te dane także z domu, w przeglądarce, bez łączenia się z komputerem w aptece.</p>
     <p>Dla małych sieci program pokazuje stany wszystkich aptek w jednym miejscu i pozwala przesunąć towar między nimi zamiast zamawiać nowy. Raporty do ZSMOPL przygotowuje się osobno dla każdego miejsca prowadzenia działalności.</p>
     <p>Apteka Plus jest przeznaczona dla aptek niezależnych i małych sieci. Odpowiedzialność za obrót lekami i za prawidłowość danych w raportach ponosi apteka i kierownik apteki; program porządkuje i przyspiesza tę pracę.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Czy program wymaga serwera w aptece?</h3>
-    <p>Nie. Działa w przeglądarce na komputerach przy stołach i w biurze; dane są przechowywane w chmurze.</p>
-    <h3>Czy obsługuje weryfikację FMD?</h3>
-    <p>Tak: weryfikacja i wycofywanie identyfikatorów opakowań przy przyjęciu i przy sprzedaży.</p>
-    <h3>Czy wysyła raporty do ZSMOPL?</h3>
-    <p>Tak, program przygotowuje raporty z danych o sprzedaży, przyjęciach i stanach i wysyła je w terminie.</p>
-    <h3>Czy mogę przenieść dane z obecnego programu?</h3>
-    <p>Tak: kartotekę towarów i stany przenosimy przy wdrożeniu.</p>
-    <h3>Czy mogę już korzystać z programu?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy apteki jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Czy program wymaga serwera w aptece?</h3><p>Nie. Działa w przeglądarce na komputerach przy stołach i w biurze; dane są przechowywane w chmurze.</p></div>
+      <div class="split flip"><h3>Czy obsługuje weryfikację FMD?</h3><p>Tak: weryfikacja i wycofywanie identyfikatorów opakowań przy przyjęciu i przy sprzedaży.</p></div>
+      <div class="split flip"><h3>Czy wysyła raporty do ZSMOPL?</h3><p>Tak, program przygotowuje raporty z danych o sprzedaży, przyjęciach i stanach i wysyła je w terminie.</p></div>
+      <div class="split flip"><h3>Czy mogę przenieść dane z obecnego programu?</h3><p>Tak: kartotekę towarów i stany przenosimy przy wdrożeniu.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać z programu?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy apteki jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Zacznij od kartoteki towarów</h2>
-    <p><label>Ile stołów ma apteka<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>1</option><option>2–3</option><option>4–6</option><option>Więcej niż 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Prześlij kartotekę</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Zacznij od kartoteki towarów</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ile stołów ma apteka<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>1</option><option>2–3</option><option>4–6</option><option>Więcej niż 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Prześlij kartotekę</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Apteka Plus</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Program apteczny. Za obrót produktami leczniczymi i prawidłowość raportów odpowiada apteka i kierownik apteki.</p>
+  <p>Program apteczny. Za obrót produktami leczniczymi i prawidłowość raportów odpowiada apteka i kierownik apteki.</p>
 </div></footer>
 
 </body>
